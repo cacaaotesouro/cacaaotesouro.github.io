@@ -4,10 +4,10 @@ var a=document.getElementById("text_a").value;
 
 if (a=="hello")
   {
-document.getElementById("answer").innerText="Acertou! Agora sua próxima pista: O que é o que é XXX YYY ZZZ";
+document.getElementById("answer").innerText="Abro para a acolhida e também para a despedida !";
   }
 else
   {
-document.getElementById("answer").innerHTML="Oops! Errou! Tente novamente!";
+document.getElementById("answer").innerHTML="Oops! Errou Rude! Tente novamente!";
   }
 }
