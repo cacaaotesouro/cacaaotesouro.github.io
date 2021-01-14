@@ -2,6 +2,13 @@
 <html>
 <body>
 <h1>CAÇA AO TESOURO</h1>
-<p>Você chegou até aqui. Agora preciso que acerte a pergunta para habilitar a próxima pista</p>
+<p>Você chegou até aqui. Agora preciso que acerte a pergunta para habilitar a próxima pista. Escreva a resposta abaixo</p>
+  
+<input type="text" id="search_bt" name="search_bt"><br><br>
+<input type="submit" value="Submit"> 
+
+{% if search_bt == "arroz" %}
+<p> acertou mizere</p>
+{% endif %}
 </body>
 </html>
