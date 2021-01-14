@@ -2,7 +2,7 @@ function myFunction()
 {
 var a=document.getElementById("text_a").value;
 
-if (a=="hello")
+if (a=="GUARUJEBA")
   {
 document.getElementById("answer").innerText="Abro para a acolhida e também para a despedida !";
   }
