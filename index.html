@@ -1,14 +1,11 @@
 <!DOCTYPE html>
+
+<script src="/demo.js"></script>
+
 <html>
 <body>
-<h1>CAÇA AO TESOURO</h1>
-<p>Você chegou até aqui. Agora preciso que acerte a pergunta para habilitar a próxima pista. Escreva a resposta abaixo</p>
-  
-<input type="text" id="search_bt" name="search_bt"><br><br>
-<input type="submit" value="Submit"> 
-
-{% if search_bt == "arroz" %}
-<p> acertou mizere</p>
-{% endif %}
+<input id="text_a" type="text" />
+<p id="answer"></p>
+<button onclick="myFunction()">Check</button>
 </body>
 </html>
